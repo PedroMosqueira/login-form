@@ -1,0 +1,53 @@
+@charset "UFT-8";
+@media screen and (min-width:800px) {
+
+
+    *{
+        font-size: 35px ;
+    }
+    main{
+        background-image: linear-gradient( to top,#4A9C9C,#5F2C82 );
+    }
+    
+
+section{
+   
+    width: calc(0.95 * 800px);
+    height: 350px;
+    margin-top: calc(50vh - 350px / 2);
+    border-radius:10px 10px 10px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 2px 2px;
+    
+}
+
+#img{
+    float: right;
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-radius:0px 10px 10px 0px ;
+   
+   
+}
+#lg{
+    float: left;
+    display: block;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+   
+    
+    
+}
+p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}   
+h1{
+    margin: 10px;
+} 
+
+    
+}
+   

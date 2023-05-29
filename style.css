@@ -1,0 +1,172 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+main{
+    background-color: #5F2C82;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+   
+   
+    
+   
+}
+#img{
+    background-image: url(imagem/metal.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    height: 35vh;
+    border-radius:  10px 10px 0px 0px;
+    
+
+
+}
+#lg{
+    text-align: justify;
+    background-color: white;
+    border-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+
+
+
+    
+}
+.input{
+    margin: 5px;
+    font-size: 35px;
+    background-color: #5F2C82;
+    border-radius: 10px;
+    height: 35px;
+    padding-bottom: 10px;
+   
+
+   
+   
+
+
+}
+
+.inp{
+
+    height: 38px;
+    font-size: 20px;
+    
+    padding: 0;
+    width: calc(100% - 50px);
+    display:inline;
+    border-radius: 10px;
+   vertical-align: middle;
+   background-color:#94CFCD;
+
+
+}
+
+
+.inp:focus{
+    background-color: white;
+}
+
+
+
+.material-icons{
+    font-family: 'Material Icons';
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    background-color: #5F2C82;
+    padding: 0%;
+    padding-left: 5px;
+    
+
+
+}
+section{
+   
+    width: 50vw;
+    display: inline-block;
+    margin-top: calc(50vh - 520.5px / 2);
+    border-radius:10px 10px 10px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 2px 2px;
+    position: relative;
+    transition: width 1.3s heigth 1.3s;
+    transition-timing-function: ease;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    padding: 5px;
+}
+form{
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    margin: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+}
+#enter{
+    color:white;
+    width: calc(100% - 10px);
+    display: block;
+    margin: 5px;
+    border: none;
+   
+
+}
+#enter:hover{
+    background-color: #2D6462;
+}
+
+#aesq{
+   background-color: white;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.39);
+   border: solid #94CFCD;
+   margin-top: 5px;
+   width: calc(100% - 14px);
+   display: block;
+   padding-top: 5px;
+   height: 30px;
+   margin: 5px;
+}
+
+#aesq:hover{
+    background-color: #6CD3CF;
+
+}
+  
+
+
+
+
+
+#mail{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 20px;
+   
+
+}

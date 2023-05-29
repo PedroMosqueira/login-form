@@ -1,0 +1,44 @@
+@charset "UFT-8";
+@media screen and (min-width:600px) and (max-width:800px){
+
+main{
+    background-image: linear-gradient( to top,#4A9C9C,#5F2C82 );
+}
+
+section{
+    width: 80vw;
+    height: 294px;
+    margin-top: calc(50vh - 294px / 2);
+
+    border-radius:10px 10px 10px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.336) 2px 2px 2px;
+    
+}
+
+#img{
+    float: left;
+    display: block;
+    width: 30%;
+    height: 100%;
+    border-radius:10px 0px 0px 10px ;
+   
+   
+}
+#lg{
+    float: right;
+    display: block;
+    width: 70%;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+
+    
+    
+   
+    
+    
+}
+
+
+
+
+}

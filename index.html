@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq1.css">
+    <link rel="stylesheet" href="mq2.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div id="img"></div>
+            <div id="lg">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+
+                <form action="login.php" method="post">
+                    <div class="input">
+                        <i class='material-icons'>person</i>
+                        <input type="email" placeholder="email" class="inp" autocomplete="on" maxlength="30">
+                    </div>
+                    <div class='input'>
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="pw" id="pw" class="inp" placeholder="password" autocomplete="on" maxlength="8"  >
+                        
+                   
+                    </div>
+                    <input type="submit" value="Entrar" class="inp" id="enter">
+                    <a href="#" id="aesq" class="inp">Esqueci a senha<i class="material-icons" id="mail">mail</i></a>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
